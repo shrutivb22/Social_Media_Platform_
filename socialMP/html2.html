@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Platform</title>
+    <link rel="stylesheet" href="html2file.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+     <nav>
+        <div class="nav-left">
+            <img src="images/logo1.jpg" class="logo">
+            <ul>
+              <li><img src="images/notification.png"></li>
+              <li><img src="images/inbox.png"></li>
+              <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="image not found">
+                <input type="text" value="search">
+           <div class="user online">
+                <img src="images/profile11.jpg">
+
+            </div>
+         </div>
+        </div>
+     </nav>
+    <div class="main">
+        <div class="left">
+            <div class="left-profile">
+                    <img src="images/profile11.jpg">
+                <h3>@its_rIyA</h3>
+            </div>
+            <div class="menu">
+            <a href="#" class="meni-item">
+            <span class="btn"><i class="fa fa-home"></i> Home</span>
+            </a><br><br>
+           
+              <div class="icon" onclick="toggleNotifi()">
+                <span class="btn"><i class="fa fa-bell"></i> Notification</span>
+              </div>
+                
+               <div class="notifi-box" id="box">
+                <div class="s1">
+                    <img src="images/member-8.png">
+                    <b>Gauri Desai</b><p>accepted your friend request 2 DAYS AGO</p>
+                </div>
+                <div class="s1">
+                     <img src="images/sohel.jpg">
+                     <b>Sohel Shaikh</b><p> commented on your post 1 HOUR AGO</p>
+                </div>
+                <div class="s1">
+                     <img src="images/siya.jpg">
+                     <b>Siya Somani</b><p></p> and 78 others liked your post 4 MINUTES AGO</p>
+                </div>
+                <div class="s1">
+                     <img src="images/varun.jpg">
+                     <b>RanchodDas Chanchad</b><p>commented on a post you are tagged in 2 DAY AGO</p>
+                </div>
+            </div>
+            <br>
+            <a href="#" class="menu-item">
+                <span class="btn"><i class="fa fa-compass"></i> Explore</span>
+            </a><br><br>
+            <a href="chatbox1.html" class="menu-item">
+                <span class="btn"><i class="fa fa-envelope"></i> Message</span>
+            </a><br><br>
+            <a href="#" class="menu-item">
+                <span class="btn"><i class="fa fa-compass" id="friend"></i> Friends</span>
+            </a><br><br>
+            <a href="#" class="menu-item">
+                <span class="btn"><i class="fa fa-gear"></i> Setting</span>
+            </a><br><br>
+
+            <div class="create-post-btn">
+            <a href="#"><h2>Create Post</h2></a>
+            </div>
+         </div>
+    </div>
+
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+           <img src="images/profile11.jpg">
+            <p>Your Story</p>
+             </div>
+
+            
+            <div class="story story2">
+        <img src="images/rakhi.jpg">
+        <p>Rakhi</p>
+    </div>
+        
+    
+        <div class="story story3">
+    <img src="images/member-9.png">
+    <p>Vighnesh</p>
+</div>
+
+    <div class="story story4">
+<img src="images/varun.jpg">
+<p>Varun</p>
+</div>
+
+    <div class="story story5">
+<img src="images/member-8.png">
+<p>Gauri</p>
+</div>
+</div>
+
+    
+
+    <div class="write-post-container">
+        <div class="user-profile">
+            <img src="images/profile11.jpg">
+            <div>
+                <p>Riya Sharma</p>
+                <small>public</small>
+            </div>
+        </div>
+        <div class="post-input-container">
+            <textarea rows="3" placeholder="What's on your mind buddy?"></textarea>
+            <div class="add-post-links">
+                <a href="#"><img src="images/live-video.png">Live Video </a>
+                <a href="#"><img src="images/photo.png">Photo/Video </a>
+                <a href="#"><img src="images/feeling.png">Feeling/Activity </a>
+            </div> 
+        </div>
+    </div>
+
+    <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="images/profile11.jpg">
+                <div>
+                <p>Riya Sharma</p>
+                <span>July 9 2023,12:00 am</span>
+            </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+        </div>
+        <p class="post-text"><span>Follow Me</span></p>
+        <a href="#">“If you want to love others, I think you should love yourself first.” – RM...Happy Army Day!!#I Purple You...</a>
+        <img src="images/post2.jpg" class="post-img">
+        <div class="post-row">
+            <div class="activity-icons">
+             <div><img src="images/like-blue.png">1K</div>
+             <div><img src="images/comments.png">700</div>
+             <div><img src="images/share.png">500</div>
+            </div>
+            <div class="post-profile-icon">
+                <img src="images/profile11.jpg"><i class="fas fa-caret-down"></i>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="images/profile11.jpg">
+                <div>
+                <p>Riya Sharma</p>
+                <span>June 21 2023,6:40 am</span>
+            </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+        </div>
+        <p class="post-text"><span>Follow me</span></p>
+        
+        <a href="#">Hanging out with these crazy people!... #special people</a>
+        <img src="images/feed-image-2.png" class="post-img">
+        <div class="post-row">
+            <div class="activity-icons">
+             <div><img src="images/like.png">1K</div>
+             <div><img src="images/comments.png">700</div>
+             <div><img src="images/share.png">500</div>
+            </div>
+            <div class="post-profile-icon">
+                <img src="images/profile11.jpg"><i class="fas fa-caret-down"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="images/profile11.jpg">
+                <div>
+                <p>Riya Sharma</p>
+                <span>June 4 2023,4:40pm</span>
+            </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+        </div>
+        <p class="post-text"><span>Follow Me</span></p>
+        
+        <a href="#">hearing the giggles of my little angel gives happiness to my heart... #angel</a>
+        <img src="images/post3.jpg" class="post-img">
+        <div class="post-row">
+            <div class="activity-icons">
+             <div><img src="images/like-blue.png">1K</div>
+             <div><img src="images/comments.png">700</div>
+             <div><img src="images/share.png">500</div>
+            </div>
+            <div class="post-profile-icon">
+                <img src="images/profile11.jpg"><i class="fas fa-caret-down"></i>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="images/profile11.jpg">
+                <div>
+                <p>Riya Sharma</p>
+                <span>May 27 2023,4:40pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+        </div>
+        <p class="post-text"><span>Follow Me</span></p>
+        <a href="#">Haldi is known to purify and cleanse the body of the couple entering holy matrimony. It's the most beautiful day for the most beautiful couple.. </a>
+        <img src="images/post4.jpg" class="post-img">
+        <div class="post-row">
+            <div class="activity-icons">
+             <div><img src="images/like-blue.png">1K</div>
+             <div><img src="images/comments.png">700</div>
+             <div><img src="images/share.png">500</div>
+            </div>
+            <div class="post-profile-icon">
+                <img src="images/profile11.jpg"><i class="fas fa-caret-down"></i>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="images/profile11.jpg">
+                <div>
+                <p>Riya Sharma</p>
+                <span>May 20 2023,9:30pm</span>
+            </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+        </div>
+        <p class="post-text"><span>Follow Me</span></p>
+        <a href="#">Childhood is important to a person’s life for many reasons. It’s the period when a person’s beliefs and values are cemented. It is also the period when the  world is full of endless possibilities and wonder..#school memories</a>
+        <img src="images/post5.jpg" class="post-img">
+        <div class="post-row">
+            <div class="activity-icons">
+             <div><img src="images/like-blue.png">1K</div>
+             <div><img src="images/comments.png">700</div>
+             <div><img src="images/share.png">500</div>
+            </div>
+            <div class="post-profile-icon">
+                <img src="images/profile11.jpg"><i class="fas fa-caret-down"></i>
+
+            </div>
+        </div>
+    </div>
+
+    <button type="button"class="load-more-btn">Load More</button>
+     </div>
+             
+        <div class="right">
+
+            <div class="friend-list">
+             <h2>Friend List</h2>
+             </div>
+
+           <div class="friend-names">
+
+             <div class="online-list">
+                <div class="online">
+                    <a href="friend1.html">
+                       <img src="images/siya.jpg">
+                    </a>
+               </div>
+               <p>Siya Somani</p>
+               <hr>
+             </div>  
+           <div class="online-list">
+            <div class="online">
+                <a href="friend2.html">
+                <img src="images/rakesh.jpg">
+                </a>
+            </div>
+            <p>Rakesh Pawar</p>
+           </div>
+           <div class="online-list">
+            <div class="online">
+                <a href="friend3.html">
+                <img src="images/rakhi.jpg">
+                </a>
+            </div>
+            <p>Rakhi Arora</p>
+           </div>
+           <div class="online-list">
+            <div class="online">
+                <a href="friend4.html">
+                <img src="images/member-8.png">
+                </a>
+            </div>
+            <p>Gauri Desai</p>
+           </div>
+
+           <div class="online-list">
+            <div class="online">
+                <a href="friend5.html">
+                <img src="images/member-9.png">
+                </a>
+            </div>
+            <p>Vighnesh Jadhav</p>
+           </div>
+           <div class="online-list">
+            <div class="online">
+                <a href="friend6.html">
+                <img src="images/varun.jpg">
+                </a>
+            </div>
+            <p>Varun Deshmukh</p>
+            <div class="chatbox-wrapper">
+                <div class="chatbox-toggle">
+                     <i class='bx bx-message-dots'></i>
+                </div>
+               
+            </div>
+           </div>
+           <div class="online-list">
+            <div class="online">
+                <a href="friend7.html">
+                <img src="images/sohel.jpg">
+                </a>
+            </div>
+            <p>Sohel Shaikh</p>
+           </div>
+        
+    </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <p>---!!!Visit now!!!---</p>
+    </div>
+
+ 
+   
+
+     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+     <script src="notification.js"></script>
+    
+
+</body>
+</html>
